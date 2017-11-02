@@ -1,0 +1,21 @@
+.section{
+
+
+}
+
+.section--cards {
+	padding-top: 118px;
+	padding-bottom: 97px;
+	position: relative;
+
+	&:before {
+	    height: 100%;
+	    width: 50%;
+	    background-color: $color-oxford-blue;
+	    position: absolute;
+	    content: '';
+	    left: 0;
+	    top: 0;
+	}
+
+} // .section--cards
